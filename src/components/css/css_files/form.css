@@ -1,0 +1,72 @@
+.mailFormular{
+    padding-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #ccc;
+}
+form{
+    display: grid;
+    position: static;
+    bottom: 0;
+}
+form input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input:focus {
+    border: 3px solid #555;
+}
+form textarea:focus{
+    border: 3px solid #555;
+}
+form textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    width: 60rem;
+    height: 15rem;
+}
+input[type=submit]{
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: xx-large;
+    z-index: 99;
+    border-radius: 20px;
+}
+input[type=submit] a{
+  color: var(--text-color);
+  text-decoration: none;
+}
+input[type=submit]:hover{
+    border: 2px solid var(--main-brand-color)
+}
+input[type=submit]:active{
+  background-color: #ffaa00;
+  border: 2px solid var(--main-brand-color)
+}
+@media (max-width: 767px) {
+    .mailFormular{
+        padding-top: 3rem;
+        max-width: 100%;
+    }
+    form textarea{
+        width: 100%;
+    }
+    form input{
+        width: 100%;
+    }
+}

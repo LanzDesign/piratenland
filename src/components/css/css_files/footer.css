@@ -1,0 +1,82 @@
+.footer{
+    padding: 5rem 4rem 5rem 4rem;
+    display: flex;
+    justify-content: space-around;
+    left: 0;
+    bottom: 0;
+    background-color: var(--light-secondary-color);
+    color: white;
+    text-align: center;
+}
+.footer a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    position: relative;
+    bottom: 0;
+}
+/* Hover and active effect for footerigation menu links */
+.footer a:hover {
+    color: var(--main-brand-color);
+    transition: 150ms ease-in-out;
+}
+/* Creating an underline effect for footerigation menu links on hover and active */
+.footer a::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: var(--main-brand-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 150ms ease-in-out;
+}
+/* Expanding the underline effect on hover and active */
+.footer a:hover::after {
+    width: 100%;
+}
+.impressum-footer a{
+    text-decoration: underline;
+}
+.text-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    height: 15rem;
+    padding: 20px;
+    border-left: 1px solid var(--main-brand-color);
+    border-right: 1px solid var(--main-brand-color);
+    background: linear-gradient(to bottom, rgba(0,0,0,0), var(--main-brand-color),rgba(0,0,0,0));
+    flex-direction: column;
+}
+@media screen and (max-width: 767px){
+    .text-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        border-left: 1px solid var(--main-brand-color);
+        border-right: 1px solid var(--main-brand-color);
+        background: linear-gradient(to bottom, rgba(0,0,0,0), var(--main-brand-color),rgba(0,0,0,0));
+        flex-direction: column;
+    }
+    .footer{
+        padding: 5rem 0 5rem 0;
+        display: grid;
+        grid-template-columns: auto;        
+        left: 0;
+        bottom: 0;
+        background-color: var(--light-secondary-color);
+        color: white;
+        text-align: center;
+    }
+    .footer div{
+        margin-bottom: 15px;
+    }
+    .impressum-footer a:active{
+        color: var(--main-brand-color);
+        text-decoration: underline;
+    }
+}

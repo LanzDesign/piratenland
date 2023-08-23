@@ -1,0 +1,61 @@
+.booking-form-container{
+    display: flex;
+    padding-top: 8rem;
+    justify-content: space-around;
+    background-color: #ccc;
+    padding-left: 15rem;
+    padding-right: 14rem;
+    font-size: x-large;
+}
+form{
+    display: grid;
+    position: static;
+    bottom: 0;
+    font-size: x-large;
+}
+form input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-size: x-large;
+}
+input:focus {
+    border: 3px solid #555;
+    font-size: x-large;
+}
+form textarea:focus{
+    border: 3px solid #555;
+    font-size: x-large;
+}
+form textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    width: 60rem;
+    height: 15rem;
+    font-size: x-large;
+}
+input[type=submit]{
+    font-size: x-large;
+}
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: x-large;
+    border: 3px solid #ccc;
+    font-family: PopReg;
+}
+option{
+    font-family: PopReg;
+}

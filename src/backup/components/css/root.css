@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: PopReg;
+    src: url('fonts/Advent_Pro/AdventPro-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 500;
+}
+
+
+:root{
+    --main-brand-color: #FF0003;   
+    --primary-color: #0063B6;
+    --secondary-color: #BBBBBB;
+    --light-secondary-color: #e4e4e49c;
+    --text-color: #000000;
+    --secondary-text-color: #f3f3f3;
+    transition: 150ms ease-in-out;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+
+
+
+*{  
+    scrollbar-color: auto !important; 
+    scrollbar-width: 0px !important; 
+    margin: 0;
+    padding: 0;
+    font-family: PopReg;
+}
+body{
+    background-color: linear-gradient(90deg, #00eeff 40%, #66a6ff 100%);    
+    width: 100%;
+    font-size: 20px;
+    color: var(--text-color);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 200vh;
+}
+
+
+.hideOnFull {
+    display: none;
+}
+
+
+@media(max-width: 680px) {
+    *{
+        padding: 0;
+        scrollbar-color: var(--hover-brand-color);
+        font-size: 23px;
+    }    
+    .hideOnFull{
+        display: flex;
+    }
+    .hideOnMobile {
+        display: none;
+    }
+}

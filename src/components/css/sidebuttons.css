@@ -1,0 +1,79 @@
+@media only screen and (min-width: 1200px) {
+  .sideButtons {
+      position: fixed;
+      bottom: 30%;
+      z-index: 99;
+    }
+  .sideButtons div{
+    left: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+    width: 20px;
+    height: 50px;
+    transition: width 0.3s ease;
+    display: block;
+    align-content: center;
+    justify-content: center;
+  }
+  .sideButtons img{
+    width: 0;
+    transition: width 0.3s ease;
+  }
+  .homeButton{
+    background-color: yellow;
+  }
+  .homeButton:hover img{
+    width: 40px;
+  }
+  .homeButton:hover {
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 70px;
+  }
+  .phoneButton{
+    background-color: lime;
+  }
+  .phoneButton:hover img{
+    width: 40px;
+  }
+  .phoneButton:hover {
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 70px;
+  }
+  .mailButton{
+    background-color: tomato;
+  }
+  .mailButton:hover img{
+    width: 40px;
+  }
+  .mailButton:hover {
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 70px;
+  }
+  .locationButton{
+    background-color: crimson;
+  }
+  .locationButton:hover img{
+    width: 40px;
+  }
+  .locationButton:hover {
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 70px;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .sideButtons{
+    display: none;
+  } 
+  .sideButtons div{
+    display: none;
+  }
+  .sideButtons img{
+    display: none;
+  } 
+}
