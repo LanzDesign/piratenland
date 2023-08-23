@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/piratenland/static/css/main.38b52a92.css",
-    "main.js": "/piratenland/static/js/main.bab4c9d9.js",
+    "main.js": "/piratenland/static/js/main.6d7df035.js",
     "static/media/logo_ohne_hintergrund.png": "/piratenland/static/media/logo_ohne_hintergrund.a97338484c056957e559.png",
     "static/media/wellen.jpg": "/piratenland/static/media/wellen.512b530c798e66841e5e.jpg",
     "static/media/papagei.png": "/piratenland/static/media/papagei.cc0a91978ce927b13c46.png",
@@ -9,10 +9,10 @@
     "static/media/Poppins-Bold.ttf": "/piratenland/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "index.html": "/piratenland/index.html",
     "main.38b52a92.css.map": "/piratenland/static/css/main.38b52a92.css.map",
-    "main.bab4c9d9.js.map": "/piratenland/static/js/main.bab4c9d9.js.map"
+    "main.6d7df035.js.map": "/piratenland/static/js/main.6d7df035.js.map"
   },
   "entrypoints": [
     "static/css/main.38b52a92.css",
-    "static/js/main.bab4c9d9.js"
+    "static/js/main.6d7df035.js"
   ]
 }
